@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf9f7">
+  <meta name="description" content="황재환 — 미디어커뮤니케이션학과. 부산에서 콘텐츠와 브랜드를 공부하는 포트폴리오.">
+  <title>황재환 — 미디어커뮤니케이션학과 포트폴리오</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%232f5d50'/><text x='16' y='22' font-family='sans-serif' font-size='15' font-weight='700' fill='%23ffffff' text-anchor='middle'>H</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 건너뛰기</a>
+
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="mark" href="#top">황재환</a>
+      <nav class="nav" aria-label="섹션 이동">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#log">Log</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="topbar__mail" href="mailto:babo@naver.com">babo@naver.com</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- 히어로 -->
+    <section class="hero wrap" id="top">
+      <div class="hero__main">
+        <p class="label reveal"><span class="dash">—</span>Portfolio 2026</p>
+        <h1 class="hero__name reveal" style="--d:.08s">황재환</h1>
+        <p class="hero__intro reveal" style="--d:.16s">
+          미디어커뮤니케이션학과에서 콘텐츠와 사람을
+          연결하는 일을 공부합니다.
+        </p>
+        <ul class="chips reveal" style="--d:.24s">
+          <li>미디어</li>
+          <li>콘텐츠</li>
+          <li>브랜딩</li>
+          <li>애니메이션</li>
+          <li>음악</li>
+          <li>여행</li>
+        </ul>
+        <p class="hero__meta reveal" style="--d:.3s">
+          Busan, Korea <span>·</span> Open to internships
+        </p>
+        <div class="hero__actions reveal" style="--d:.36s">
+          <a class="btn btn--solid" href="https://github.com/luffy8927-blip/AIpython"
+             target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14 0 1.55-.01 2.8-.01 3.18 0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/>
+            </svg>
+            GitHub
+          </a>
+          <a class="btn btn--ghost" href="mailto:babo@naver.com">이메일 보내기</a>
+        </div>
+      </div>
+
+      <figure class="hero__visual reveal" style="--d:.14s">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgMTAwMCIgd2lkdGg9IjgwMCIgaGVpZ2h0PSIxMDAwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IuyVhOy5mOyZgCDtg5zslpHsnYQg6re466awIOy2lOyDgSDtj6zsiqTthLAiPgogIDxkZWZzPgogIDwvZGVmcz4KCiAgPHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSIxMDAwIiBmaWxsPSIjZWZlY2U1Ii8+CgogIDxnIHN0cm9rZT0iIzE0MTYxYSIgc3Ryb2tlLW9wYWNpdHk9Ii4wNyIgc3Ryb2tlLXdpZHRoPSIxIj4KICAgIDxwYXRoIGQ9Ik0xMDAgMHYxMDAwTTcwMCAwdjEwMDBNMCAxODBoODAwTTAgNjIwaDgwMCIvPgogIDwvZz4KCiAgPGNpcmNsZSBjeD0iNDAwIiBjeT0iMzAyIiByPSIxMTgiIGZpbGw9IiNjMjY0M2YiLz4KCiAgPHBhdGggZD0iTTE3MCAxMDAwVjUzMmEyMzAgMjMwIDAgMCAxIDQ2MCAwdjQ2OFoiIGZpbGw9IiMyZjVkNTAiLz4KICA8cGF0aCBkPSJNMTk2IDEwMDBWNTM2YTIwNCAyMDQgMCAwIDEgNDA4IDB2NDY0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmYWY5ZjciIHN0cm9rZS1vcGFjaXR5PSIuNDUiIHN0cm9rZS13aWR0aD0iMS41Ii8+CgogIDxwYXRoIGQ9Ik0wIDc2Mmg4MDAiIHN0cm9rZT0iI2ZhZjlmNyIgc3Ryb2tlLW9wYWNpdHk9Ii4zIiBzdHJva2Utd2lkdGg9IjEiLz4KICA8Y2lyY2xlIGN4PSI0MDAiIGN5PSI3NjIiIHI9IjQuNSIgZmlsbD0iI2ZhZjlmNyIgZmlsbC1vcGFjaXR5PSIuOSIvPgoKICA8dGV4dCB4PSI0MDAiIHk9Ijk1MiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGxldHRlci1zcGFjaW5nPSI2IiBmaWxsPSIjZmFmOWY3IiBmaWxsLW9wYWNpdHk9Ii42MiI+QlVTQU4g4oCUIDIwMjY8L3RleHQ+Cgo8L3N2Zz4K" width="800" height="1000"
+             alt="아치와 태양, 수평선을 그린 딥그린·테라코타 추상 포스터">
+        <figcaption class="hero__cap">Fig. 01 — Busan</figcaption>
+      </figure>
+    </section>
+
+    <!-- 숫자 스트립 -->
+    <div class="stats reveal" style="--d:.34s">
+      <div class="wrap stats__inner">
+        <div class="stat">
+          <span class="stat__num">03</span>
+          <span class="stat__label">관심사</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">2026</span>
+          <span class="stat__label">재학 중</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">부산</span>
+          <span class="stat__label">기반</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 마퀴 -->
+    <div class="band" aria-hidden="true">
+      <div class="band__track">
+        <span>미디어 <b>·</b> 콘텐츠 <b>·</b> 브랜딩 <b>·</b> 애니메이션 <b>·</b> 음악 <b>·</b> 여행 <b>·</b> 부산 <b>·</b> </span>
+        <span>미디어 <b>·</b> 콘텐츠 <b>·</b> 브랜딩 <b>·</b> 애니메이션 <b>·</b> 음악 <b>·</b> 여행 <b>·</b> 부산 <b>·</b> </span>
+      </div>
+    </div>
+
+    <!-- About -->
+    <section class="section wrap" id="about" aria-labelledby="about-title">
+      <div class="section__head">
+        <p class="label"><span class="dash">—</span>01 About</p>
+        <h2 class="section__title" id="about-title">소개</h2>
+      </div>
+
+      <div class="about">
+        <figure class="about__media">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgMTAwMCIgd2lkdGg9IjgwMCIgaGVpZ2h0PSIxMDAwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IuyduOusvCDsi6Tro6jsl6PsnYQg6re466awIOuTgOyYpO2GpCDtj6zsiqTthLAiPgogIDxkZWZzPgogICAgPHBhdHRlcm4gaWQ9ImRvdHMiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxjaXJjbGUgY3g9IjQiIGN5PSI0IiByPSIyLjIiIGZpbGw9IiNmYWY5ZjciIGZpbGwtb3BhY2l0eT0iLjE2Ii8+CiAgICA8L3BhdHRlcm4+CiAgICA8Y2xpcFBhdGggaWQ9ImJvZHkiPgogICAgICA8cGF0aCBkPSJNMTEwIDEwMDBDMTIwIDgxMiAyNDYgNzAwIDQwMCA3MDBzMjgwIDExMiAyOTAgMzAwWiIvPgogICAgPC9jbGlwUGF0aD4KICA8L2RlZnM+CgogIDxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iMTAwMCIgZmlsbD0iI2U5ZTRkYSIvPgogIDxyZWN0IHg9IjI2IiB5PSIyNiIgd2lkdGg9Ijc0OCIgaGVpZ2h0PSI5NDgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzE0MTYxYSIgc3Ryb2tlLW9wYWNpdHk9Ii4yMiIvPgoKICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNCwtMTYpIiBmaWxsPSIjYzI2NDNmIiBvcGFjaXR5PSIuOTIiPgogICAgPGNpcmNsZSBjeD0iNDAwIiBjeT0iNDcwIiByPSIxNTAiLz4KICAgIDxyZWN0IHg9IjM2MiIgeT0iNTgwIiB3aWR0aD0iNzYiIGhlaWdodD0iMTQwIi8+CiAgICA8cGF0aCBkPSJNMTEwIDEwMDBDMTIwIDgxMiAyNDYgNzAwIDQwMCA3MDBzMjgwIDExMiAyOTAgMzAwWiIvPgogIDwvZz4KCiAgPGcgZmlsbD0iIzJmNWQ1MCI+CiAgICA8Y2lyY2xlIGN4PSI0MDAiIGN5PSI0NzAiIHI9IjE1MCIvPgogICAgPHJlY3QgeD0iMzYyIiB5PSI1ODAiIHdpZHRoPSI3NiIgaGVpZ2h0PSIxNDAiLz4KICAgIDxwYXRoIGQ9Ik0xMTAgMTAwMEMxMjAgODEyIDI0NiA3MDAgNDAwIDcwMHMyODAgMTEyIDI5MCAzMDBaIi8+CiAgPC9nPgoKICA8cmVjdCB4PSIxMTAiIHk9IjcwMCIgd2lkdGg9IjU4MCIgaGVpZ2h0PSIzMDAiIGZpbGw9InVybCgjZG90cykiIGNsaXAtcGF0aD0idXJsKCNib2R5KSIvPgoKICA8ZyBzdHJva2U9IiNmYWY5ZjciIHN0cm9rZS1vcGFjaXR5PSIuMjIiIHN0cm9rZS13aWR0aD0iMSI+CiAgICA8cGF0aCBkPSJNNjAgMTIwaDY4ME02MCA4ODBoNjgwIi8+CiAgPC9nPgoKPC9zdmc+Cg==" width="800" height="1000" loading="lazy"
+               alt="딥그린과 테라코타로 표현한 인물 실루엣 포스터">
+          <figcaption>Fig. 02 — Portrait</figcaption>
+        </figure>
+
+        <div class="about__body">
+          <p class="about__lead">
+            미디어커뮤니케이션학과에서 <strong>콘텐츠가 사람에게 닿는 방식</strong>을
+            공부합니다. 좋아하는 것을 오래 관찰하고, 그것을 설명 가능한 언어로
+            정리하는 일에 흥미가 있습니다.
+          </p>
+          <p>
+            애니메이션과 음악을 오래 봐 온 사람으로서, 지금은 브랜드가 어떤
+            문장으로 사람에게 말을 거는지에 관심이 있습니다. 기록한 것을
+            콘텐츠로 다시 엮는 일을 꾸준히 해보고 싶습니다.
+          </p>
+
+          <ul class="strengths">
+            <li class="strength">
+              <span class="strength__num">01</span>
+              <div>
+                <p class="strength__title">관찰과 기록</p>
+                <p class="strength__desc">좋아하는 장면을 오래 보고, 왜 좋은지 글로 남깁니다.</p>
+              </div>
+            </li>
+            <li class="strength">
+              <span class="strength__num">02</span>
+              <div>
+                <p class="strength__title">구조화</p>
+                <p class="strength__desc">흩어진 사례를 비교해 공통점과 차이를 뽑아냅니다.</p>
+              </div>
+            </li>
+            <li class="strength">
+              <span class="strength__num">03</span>
+              <div>
+                <p class="strength__title">협업</p>
+                <p class="strength__desc">역할을 나누고 일정을 맞추는 일에 익숙합니다.</p>
+              </div>
+            </li>
+          </ul>
+
+          <dl class="facts">
+            <div>
+              <dt>전공</dt>
+              <dd>미디어커뮤니케이션학과</dd>
+            </div>
+            <div>
+              <dt>위치</dt>
+              <dd>Busan, Korea</dd>
+            </div>
+            <div>
+              <dt>관심 분야</dt>
+              <dd>콘텐츠 · 브랜딩</dd>
+            </div>
+            <div>
+              <dt>이메일</dt>
+              <dd><a href="mailto:babo@naver.com">babo@naver.com</a></dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section wrap" id="experience" aria-labelledby="experience-title">
+      <div class="section__head">
+        <p class="label"><span class="dash">—</span>02 Experience</p>
+        <h2 class="section__title" id="experience-title">경험</h2>
+        <span class="badge">예시</span>
+      </div>
+
+      <ul class="xp">
+        <li class="xp__item">
+          <span class="xp__when">2025.03 — 2025.08</span>
+          <div>
+            <h3 class="xp__title">교내 콘텐츠 스터디<span class="xp__role">팀장</span></h3>
+            <p class="xp__desc">
+              애니메이션 3편을 프레임 단위로 분석해 12페이지 리포트를 작성했습니다.
+              스터디원 5명과 주 1회 발표를 진행했습니다.
+            </p>
+            <ul class="xp__tags">
+              <li>리포트 12p</li>
+              <li>5인 팀</li>
+              <li>주 1회 발표</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="xp__item">
+          <span class="xp__when">2024.09 — 2025.02</span>
+          <div>
+            <h3 class="xp__title">학과 미디어팀<span class="xp__role">카드뉴스 제작</span></h3>
+            <p class="xp__desc">
+              학과 행사 소식을 카드뉴스 20건으로 제작했습니다. 기획부터 문구,
+              편집까지 직접 담당했습니다.
+            </p>
+            <ul class="xp__tags">
+              <li>카드뉴스 20건</li>
+              <li>기획 · 편집</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="xp__item">
+          <span class="xp__when">2025.07 — 2025.08</span>
+          <div>
+            <h3 class="xp__title">지역 카페 SNS 서포터즈<span class="xp__role">영상 제작</span></h3>
+            <p class="xp__desc">
+              매장의 공간과 메뉴를 짧은 영상으로 소개했습니다. 촬영 목록과
+              편집본을 직접 관리했습니다.
+            </p>
+            <ul class="xp__tags">
+              <li>릴스 6편</li>
+              <li>촬영 · 편집</li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section class="section wrap" id="projects" aria-labelledby="projects-title">
+      <div class="section__head">
+        <p class="label"><span class="dash">—</span>03 Projects</p>
+        <h2 class="section__title" id="projects-title">작업물</h2>
+        <span class="badge">예시</span>
+      </div>
+
+      <p class="lead">
+        직접 기획하고 만든 작업물입니다. 이미지와 문구는 실제 결과물로
+        교체할 예정입니다.
+      </p>
+
+      <div class="projects">
+        <article class="project">
+          <figure class="project__media">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTAwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjUwMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSLsgqzsp4Qg7ZSE66aw7Yq466W8IOqyueyzkCDrhpPsnYAg7LaU7IOBIO2PrOyKpO2EsCI+CiAgPGRlZnM+CiAgPC9kZWZzPgoKICA8cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VmZWNlNSIvPgoKICA8dGV4dCB4PSIzNCIgeT0iNDQ2IiBmb250LWZhbWlseT0iSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMTAiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMyZjVkNTAiIG9wYWNpdHk9Ii4wOCI+MDE8L3RleHQ+CgogIDxnIHN0cm9rZT0iIzE0MTYxYSIgc3Ryb2tlLW9wYWNpdHk9Ii4wOCI+CiAgICA8cGF0aCBkPSJNMCA3OGg4MDBNMCA0MjJoODAwIi8+CiAgPC9nPgoKICA8ZyB0cmFuc2Zvcm09InJvdGF0ZSgtNyAyODAgMjUwKSI+CiAgICA8cmVjdCB4PSIxMjAiIHk9IjExMCIgd2lkdGg9IjIzMCIgaGVpZ2h0PSIyODAiIGZpbGw9IiNmYWY5ZjciIHN0cm9rZT0iIzE0MTYxYSIgc3Ryb2tlLW9wYWNpdHk9Ii4xNCIvPgogICAgPHJlY3QgeD0iMTQyIiB5PSIxMzIiIHdpZHRoPSIxODYiIGhlaWdodD0iMTg2IiBmaWxsPSIjMmY1ZDUwIi8+CiAgICA8Y2lyY2xlIGN4PSIyMzUiIGN5PSIyMjUiIHI9IjQ0IiBmaWxsPSIjYzI2NDNmIi8+CiAgICA8cmVjdCB4PSIxNDIiIHk9IjMzOCIgd2lkdGg9IjExOCIgaGVpZ2h0PSI2IiBmaWxsPSIjMTQxNjFhIiBvcGFjaXR5PSIuMTgiLz4KICA8L2c+CgogIDxnIHRyYW5zZm9ybT0icm90YXRlKDYgNTQ1IDI2MCkiPgogICAgPHJlY3QgeD0iNDMwIiB5PSI5NiIgd2lkdGg9IjIzMCIgaGVpZ2h0PSIyODAiIGZpbGw9IiNmYWY5ZjciIHN0cm9rZT0iIzE0MTYxYSIgc3Ryb2tlLW9wYWNpdHk9Ii4xNCIvPgogICAgPHJlY3QgeD0iNDUyIiB5PSIxMTgiIHdpZHRoPSIxODYiIGhlaWdodD0iMTg2IiBmaWxsPSIjZTllNGRhIi8+CiAgICA8cGF0aCBkPSJNNDUyIDMwNCA1NDUgMjAwbDkzIDEwNFoiIGZpbGw9IiNjMjY0M2YiIG9wYWNpdHk9Ii45Ii8+CiAgICA8Y2lyY2xlIGN4PSI1MDUiIGN5PSIxNzAiIHI9IjIyIiBmaWxsPSIjMmY1ZDUwIiBvcGFjaXR5PSIuOCIvPgogIDwvZz4KCjwvc3ZnPgo=" width="800" height="500" loading="lazy"
+                 alt="사진 프린트를 겹쳐 놓은 추상 포스터">
+          </figure>
+          <div class="project__body">
+            <p class="project__meta"><span>기획 · 촬영</span><span>2025</span></p>
+            <h3 class="project__title">부산 골목 기록</h3>
+            <p class="project__desc">
+              골목의 간판과 계단을 사진과 짧은 글로 남긴 개인 아카이브.
+              4컷 시리즈로 구성했습니다.
+            </p>
+            <span class="project__link">
+              자세히 보기
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </span>
+          </div>
+        </article>
+
+        <article class="project">
+          <figure class="project__media">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTAwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjUwMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSLsnYzslYUg7J207YCE65287J207KCA66W8IOq3uOumsCDstpTsg4Eg7Y+s7Iqk7YSwIj4KICA8ZGVmcz4KICA8L2RlZnM+CgogIDxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjZWVmM2YxIi8+CgogIDx0ZXh0IHg9IjM0IiB5PSI0NDYiIGZvbnQtZmFtaWx5PSJIZWx2ZXRpY2EsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjIxMCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzJmNWQ1MCIgb3BhY2l0eT0iLjA4Ij4wMjwvdGV4dD4KCiAgPGcgc3Ryb2tlPSIjMTQxNjFhIiBzdHJva2Utb3BhY2l0eT0iLjA4Ij4KICAgIDxwYXRoIGQ9Ik0wIDkwaDgwME0wIDQxMGg4MDAiLz4KICA8L2c+CgogIDxjaXJjbGUgY3g9IjQwMCIgY3k9IjI1MCIgcj0iMjE1IiBmaWxsPSJub25lIiBzdHJva2U9IiMyZjVkNTAiIHN0cm9rZS1vcGFjaXR5PSIuMTQiLz4KCiAgPGc+CiAgICA8cmVjdCB4PSIxNjgiIHk9IjI1MiIgd2lkdGg9IjQ2IiBoZWlnaHQ9IjE0OCIgZmlsbD0iIzJmNWQ1MCIvPgogICAgPHJlY3QgeD0iMjM2IiB5PSIxOTIiIHdpZHRoPSI0NiIgaGVpZ2h0PSIyMDgiIGZpbGw9IiNjMjY0M2YiLz4KICAgIDxyZWN0IHg9IjMwNCIgeT0iMzAwIiB3aWR0aD0iNDYiIGhlaWdodD0iMTAwIiBmaWxsPSIjMmY1ZDUwIiBvcGFjaXR5PSIuOCIvPgogICAgPHJlY3QgeD0iMzcyIiB5PSIxNDIiIHdpZHRoPSI0NiIgaGVpZ2h0PSIyNTgiIGZpbGw9IiMxODJiMjUiLz4KICAgIDxyZWN0IHg9IjQ0MCIgeT0iMjIyIiB3aWR0aD0iNDYiIGhlaWdodD0iMTc4IiBmaWxsPSIjYzI2NDNmIiBvcGFjaXR5PSIuOSIvPgogICAgPHJlY3QgeD0iNTA4IiB5PSIyNzIiIHdpZHRoPSI0NiIgaGVpZ2h0PSIxMjgiIGZpbGw9IiMyZjVkNTAiLz4KICAgIDxyZWN0IHg9IjU3NiIgeT0iMjAyIiB3aWR0aD0iNDYiIGhlaWdodD0iMTk4IiBmaWxsPSIjMTgyYjI1IiBvcGFjaXR5PSIuOCIvPgogIDwvZz4KCiAgPHJlY3QgeD0iMTY4IiB5PSI0MDAiIHdpZHRoPSI0NTQiIGhlaWdodD0iMiIgZmlsbD0iIzE0MTYxYSIgb3BhY2l0eT0iLjI1Ii8+Cgo8L3N2Zz4K" width="800" height="500" loading="lazy"
+                 alt="음악 이퀄라이저를 그린 추상 포스터">
+          </figure>
+          <div class="project__body">
+            <p class="project__meta"><span>큐레이션 · 커버</span><span>2025</span></p>
+            <h3 class="project__title">플레이리스트 큐레이션</h3>
+            <p class="project__desc">
+              장면에 맞는 음악을 골라 소개하는 리스트. 30곡 단위로 묶고
+              커버 아트를 함께 만들었습니다.
+            </p>
+            <span class="project__link">
+              자세히 보기
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </span>
+          </div>
+        </article>
+
+        <article class="project">
+          <figure class="project__media">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTAwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjUwMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSLquLDtlZjtlZkg64+E7ZiV7J2EIOuwsOy5mO2VnCDruIzrnpzrk5wg7JWE7J2064207Yuw7YuwIO2PrOyKpO2EsCI+CiAgPGRlZnM+CiAgPC9kZWZzPgoKICA8cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2YyZWNlNCIvPgoKICA8dGV4dCB4PSIzNCIgeT0iNDQ2IiBmb250LWZhbWlseT0iSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMTAiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMyZjVkNTAiIG9wYWNpdHk9Ii4wOCI+MDM8L3RleHQ+CgogIDxnIHN0cm9rZT0iIzE0MTYxYSIgc3Ryb2tlLW9wYWNpdHk9Ii4wOCI+CiAgICA8cGF0aCBkPSJNMCA4MGg4MDBNMCA0MjBoODAwTTQwMCA0MHY0MjAiLz4KICA8L2c+CgogIDxjaXJjbGUgY3g9IjI3MCIgY3k9IjE4OCIgcj0iODIiIGZpbGw9IiMyZjVkNTAiLz4KICA8cmVjdCB4PSI0MzAiIHk9IjEwNiIgd2lkdGg9IjE2NCIgaGVpZ2h0PSIxNjQiIGZpbGw9IiNjMjY0M2YiLz4KICA8cGF0aCBkPSJNMTcyIDM5OCAyNzIgMjM4bDEwMCAxNjBaIiBmaWxsPSIjMTgyYjI1Ii8+CiAgPHBhdGggZD0iTTQzMCAzOThhODIgODIgMCAwIDEgMTY0IDBaIiBmaWxsPSIjMmY1ZDUwIiBvcGFjaXR5PSIuNzIiLz4KICA8Y2lyY2xlIGN4PSI1MTIiIGN5PSIxODgiIHI9IjM0IiBmaWxsPSIjZjJlY2U0Ii8+Cgo8L3N2Zz4K" width="800" height="500" loading="lazy"
+                 alt="기하학 도형을 배치한 브랜드 아이덴티티 포스터">
+          </figure>
+          <div class="project__body">
+            <p class="project__meta"><span>리서치 · 비주얼</span><span>2024</span></p>
+            <h3 class="project__title">브랜드 리디자인</h3>
+            <p class="project__desc">
+              동네 카페를 가상의 클라이언트로 삼아 로고와 컬러,
+              카드뉴스 템플릿을 제안했습니다.
+            </p>
+            <span class="project__link">
+              자세히 보기
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section wrap" id="skills" aria-labelledby="skills-title">
+      <div class="section__head">
+        <p class="label"><span class="dash">—</span>04 Skills</p>
+        <h2 class="section__title" id="skills-title">역량</h2>
+        <span class="badge">예시</span>
+      </div>
+
+      <div class="skills">
+        <div class="skill">
+          <h3 class="skill__title">Tools</h3>
+          <ul class="skill__chips">
+            <li>Premiere Pro</li>
+            <li>Photoshop</li>
+            <li>Figma</li>
+            <li>Notion</li>
+          </ul>
+          <p class="skill__note">영상 편집, 카드뉴스, 화면 설계에 사용합니다.</p>
+        </div>
+
+        <div class="skill">
+          <h3 class="skill__title">Coursework</h3>
+          <ul class="skill__chips">
+            <li>미디어 콘텐츠 기획</li>
+            <li>브랜드 커뮤니케이션</li>
+            <li>영상 제작 실습</li>
+            <li>미디어 리서치</li>
+          </ul>
+          <p class="skill__note">전공 수업과 과제에서 다룬 주제입니다.</p>
+        </div>
+
+        <div class="skill">
+          <h3 class="skill__title">Language</h3>
+          <ul class="skill__chips">
+            <li>한국어 (모국어)</li>
+            <li>영어 (문서 독해)</li>
+          </ul>
+          <p class="skill__note">전공 문헌과 해외 사례를 읽는 데 사용합니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interests -->
+    <section class="section wrap" id="interests" aria-labelledby="interests-title">
+      <div class="section__head">
+        <p class="label"><span class="dash">—</span>05 Interests</p>
+        <h2 class="section__title" id="interests-title">관심사</h2>
+      </div>
+
+      <ul class="cards">
+        <li class="card">
+          <figure class="card__media">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTAwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjUwMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSLtlYTrpoQg7Iqk7Yq466a97J2EIOq3uOumsCDsnbzrn6zsiqTtirgiPgogIDxkZWZzPgogIDwvZGVmcz4KCiAgPHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSI1MDAiIGZpbGw9IiNmMmVjZTQiLz4KCiAgPGNpcmNsZSBjeD0iMTg4IiBjeT0iMTQ4IiByPSIxMDQiIGZpbGw9IiNjMjY0M2YiIG9wYWNpdHk9Ii45MiIvPgoKICA8ZyBzdHJva2U9IiMxNDE2MWEiIHN0cm9rZS1vcGFjaXR5PSIuMDgiPgogICAgPHBhdGggZD0iTTAgNzRoODAwTTAgNDMyaDgwMCIvPgogIDwvZz4KCiAgPGcgdHJhbnNmb3JtPSJyb3RhdGUoLTkgNDAwIDI2MikiPgogICAgPHJlY3QgeD0iLTEyMCIgeT0iMTkyIiB3aWR0aD0iMTA0MCIgaGVpZ2h0PSIxNDAiIGZpbGw9IiMxYjFlMWQiLz4KCiAgICA8ZyBmaWxsPSIjZjJlY2U0Ij4KICAgICAgPHJlY3QgeD0iLTgwIiB5PSIyMDQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMyIvPgogICAgICA8cmVjdCB4PSItMjQiIHk9IjIwNCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjEzIi8+CiAgICAgIDxyZWN0IHg9IjMyIiB5PSIyMDQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMyIvPgogICAgICA8cmVjdCB4PSI4OCIgeT0iMjA0IiB3aWR0aD0iMjAiIGhlaWdodD0iMTMiLz4KICAgICAgPHJlY3QgeD0iMTQ0IiB5PSIyMDQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMyIvPgogICAgICA8cmVjdCB4PSIyMDAiIHk9IjIwNCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjEzIi8+CiAgICAgIDxyZWN0IHg9IjI1NiIgeT0iMjA0IiB3aWR0aD0iMjAiIGhlaWdodD0iMTMiLz4KICAgICAgPHJlY3QgeD0iMzEyIiB5PSIyMDQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMyIvPgogICAgICA8cmVjdCB4PSIzNjgiIHk9IjIwNCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjEzIi8+CiAgICAgIDxyZWN0IHg9IjQyNCIgeT0iMjA0IiB3aWR0aD0iMjAiIGhlaWdodD0iMTMiLz4KICAgICAgPHJlY3QgeD0iNDgwIiB5PSIyMDQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMyIvPgogICAgICA8cmVjdCB4PSI1MzYiIHk9IjIwNCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjEzIi8+CiAgICAgIDxyZWN0IHg9IjU5MiIgeT0iMjA0IiB3aWR0aD0iMjAiIGhlaWdodD0iMTMiLz4KICAgICAgPHJlY3QgeD0iNjQ4IiB5PSIyMDQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMyIvPgogICAgICA8cmVjdCB4PSI3MDQiIHk9IjIwNCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjEzIi8+CiAgICAgIDxyZWN0IHg9Ijc2MCIgeT0iMjA0IiB3aWR0aD0iMjAiIGhlaWdodD0iMTMiLz4KICAgICAgPHJlY3QgeD0iODE2IiB5PSIyMDQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMyIvPgoKICAgICAgPHJlY3QgeD0iLTgwIiB5PSIzMDciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMyIvPgogICAgICA8cmVjdCB4PSItMjQiIHk9IjMwNyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjEzIi8+CiAgICAgIDxyZWN0IHg9IjMyIiB5PSIzMDciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMyIvPgogICAgICA8cmVjdCB4PSI4OCIgeT0iMzA3IiB3aWR0aD0iMjAiIGhlaWdodD0iMTMiLz4KICAgICAgPHJlY3QgeD0iMTQ0IiB5PSIzMDciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMyIvPgogICAgICA8cmVjdCB4PSIyMDAiIHk9IjMwNyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjEzIi8+CiAgICAgIDxyZWN0IHg9IjI1NiIgeT0iMzA3IiB3aWR0aD0iMjAiIGhlaWdodD0iMTMiLz4KICAgICAgPHJlY3QgeD0iMzEyIiB5PSIzMDciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMyIvPgogICAgICA8cmVjdCB4PSIzNjgiIHk9IjMwNyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjEzIi8+CiAgICAgIDxyZWN0IHg9IjQyNCIgeT0iMzA3IiB3aWR0aD0iMjAiIGhlaWdodD0iMTMiLz4KICAgICAgPHJlY3QgeD0iNDgwIiB5PSIzMDciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMyIvPgogICAgICA8cmVjdCB4PSI1MzYiIHk9IjMwNyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjEzIi8+CiAgICAgIDxyZWN0IHg9IjU5MiIgeT0iMzA3IiB3aWR0aD0iMjAiIGhlaWdodD0iMTMiLz4KICAgICAgPHJlY3QgeD0iNjQ4IiB5PSIzMDciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMyIvPgogICAgICA8cmVjdCB4PSI3MDQiIHk9IjMwNyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjEzIi8+CiAgICAgIDxyZWN0IHg9Ijc2MCIgeT0iMzA3IiB3aWR0aD0iMjAiIGhlaWdodD0iMTMiLz4KICAgICAgPHJlY3QgeD0iODE2IiB5PSIzMDciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMyIvPgogICAgPC9nPgoKICAgIDxnPgogICAgICA8cmVjdCB4PSItNzAiIHk9IjIyOCIgd2lkdGg9IjEwNCIgaGVpZ2h0PSI2OCIgZmlsbD0iIzJmNWQ1MCIvPgogICAgICA8Y2lyY2xlIGN4PSItMTgiIGN5PSIyNjIiIHI9IjE3IiBmaWxsPSIjYzI2NDNmIi8+CgogICAgICA8cmVjdCB4PSI2MCIgeT0iMjI4IiB3aWR0aD0iMTA0IiBoZWlnaHQ9IjY4IiBmaWxsPSIjYzI2NDNmIi8+CiAgICAgIDxjaXJjbGUgY3g9IjExMiIgY3k9IjI2MiIgcj0iMTciIGZpbGw9IiMyZjVkNTAiLz4KCiAgICAgIDxyZWN0IHg9IjE5MCIgeT0iMjI4IiB3aWR0aD0iMTA0IiBoZWlnaHQ9IjY4IiBmaWxsPSIjMmY1ZDUwIi8+CiAgICAgIDxjaXJjbGUgY3g9IjI0MiIgY3k9IjI2MiIgcj0iMTciIGZpbGw9IiNmMmVjZTQiIGZpbGwtb3BhY2l0eT0iLjU1Ii8+CgogICAgICA8cmVjdCB4PSIzMjAiIHk9IjIyOCIgd2lkdGg9IjEwNCIgaGVpZ2h0PSI2OCIgZmlsbD0iI2MyNjQzZiIvPgogICAgICA8cmVjdCB4PSIzNDYiIHk9IjI0NCIgd2lkdGg9IjUyIiBoZWlnaHQ9IjM2IiBmaWxsPSIjMmY1ZDUwIi8+CgogICAgICA8cmVjdCB4PSI0NTAiIHk9IjIyOCIgd2lkdGg9IjEwNCIgaGVpZ2h0PSI2OCIgZmlsbD0iIzJmNWQ1MCIvPgogICAgICA8cmVjdCB4PSI0NzYiIHk9IjI0NCIgd2lkdGg9IjUyIiBoZWlnaHQ9IjM2IiBmaWxsPSIjYzI2NDNmIi8+CgogICAgICA8cmVjdCB4PSI1ODAiIHk9IjIyOCIgd2lkdGg9IjEwNCIgaGVpZ2h0PSI2OCIgZmlsbD0iI2MyNjQzZiIvPgogICAgICA8Y2lyY2xlIGN4PSI2MzIiIGN5PSIyNjIiIHI9IjE3IiBmaWxsPSIjMmY1ZDUwIi8+CgogICAgICA8cmVjdCB4PSI3MTAiIHk9IjIyOCIgd2lkdGg9IjEwNCIgaGVpZ2h0PSI2OCIgZmlsbD0iIzJmNWQ1MCIvPgogICAgICA8Y2lyY2xlIGN4PSI3NjIiIGN5PSIyNjIiIHI9IjE3IiBmaWxsPSIjZjJlY2U0IiBmaWxsLW9wYWNpdHk9Ii41NSIvPgoKICAgICAgPHJlY3QgeD0iODQwIiB5PSIyMjgiIHdpZHRoPSIxMDQiIGhlaWdodD0iNjgiIGZpbGw9IiNjMjY0M2YiLz4KICAgIDwvZz4KICA8L2c+Cgo8L3N2Zz4K" width="800" height="500" loading="lazy"
+                 alt="필름 스트립과 프로젝터를 그린 일러스트">
+            <span class="card__num" aria-hidden="true">01</span>
+          </figure>
+          <div class="card__body">
+            <h3 class="card__title">애니메이션</h3>
+            <p class="card__desc">
+              서사 구조와 연출을 분석합니다. 좋은 장면이 왜 좋은지
+              설명하는 일을 좋아합니다.
+            </p>
+          </div>
+        </li>
+
+        <li class="card">
+          <figure class="card__media">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTAwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjUwMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSLrsJTsnbTri5Ag66CI7L2U65Oc66W8IOq3uOumsCDsnbzrn6zsiqTtirgiPgogIDxkZWZzPgogIDwvZGVmcz4KCiAgPHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSI1MDAiIGZpbGw9IiNlZWYzZjEiLz4KCiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMmY1ZDUwIiBzdHJva2Utb3BhY2l0eT0iLjE0IiBzdHJva2Utd2lkdGg9IjEuMiI+CiAgICA8Y2lyY2xlIGN4PSI0MDAiIGN5PSIyNTAiIHI9IjIxNCIvPgogICAgPGNpcmNsZSBjeD0iNDAwIiBjeT0iMjUwIiByPSIyMzYiLz4KICAgIDxjaXJjbGUgY3g9IjQwMCIgY3k9IjI1MCIgcj0iMjU4Ii8+CiAgPC9nPgoKICA8Y2lyY2xlIGN4PSI0MDAiIGN5PSIyNTAiIHI9IjE2NiIgZmlsbD0iIzE4MmIyNSIvPgogIDxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzQ2NjA0ZiIgc3Ryb2tlLW9wYWNpdHk9Ii41NSIgc3Ryb2tlLXdpZHRoPSIxIj4KICAgIDxjaXJjbGUgY3g9IjQwMCIgY3k9IjI1MCIgcj0iMTQwIi8+CiAgICA8Y2lyY2xlIGN4PSI0MDAiIGN5PSIyNTAiIHI9IjExOCIvPgogICAgPGNpcmNsZSBjeD0iNDAwIiBjeT0iMjUwIiByPSI5NiIvPgogICAgPGNpcmNsZSBjeD0iNDAwIiBjeT0iMjUwIiByPSI3NCIvPgogIDwvZz4KCiAgPGNpcmNsZSBjeD0iNDAwIiBjeT0iMjUwIiByPSI1MiIgZmlsbD0iI2MyNjQzZiIvPgogIDxjaXJjbGUgY3g9IjQwMCIgY3k9IjI1MCIgcj0iNSIgZmlsbD0iI2VlZjNmMSIvPgoKICA8ZyBzdHJva2U9IiMxNDE2MWEiIHN0cm9rZS1vcGFjaXR5PSIuMSI+CiAgICA8cGF0aCBkPSJNMCA2Mmg4MDBNMCA0MzhoODAwIi8+CiAgPC9nPgoKICA8dGV4dCB4PSI0MDAiIHk9IjQ4MiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIGxldHRlci1zcGFjaW5nPSI1IiBmaWxsPSIjNWY2NDcwIj5TSURFIEE8L3RleHQ+Cgo8L3N2Zz4K" width="800" height="500" loading="lazy"
+                 alt="바이닐 레코드와 파형을 그린 일러스트">
+            <span class="card__num" aria-hidden="true">02</span>
+          </figure>
+          <div class="card__body">
+            <h3 class="card__title">음악</h3>
+            <p class="card__desc">
+              장르를 넘나드는 플레이리스트를 큐레이션합니다.
+              작업의 리듬을 만드는 일입니다.
+            </p>
+          </div>
+        </li>
+
+        <li class="card">
+          <figure class="card__media">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTAwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjUwMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSLqtJHslYjrjIDqtZDsmYAg67CU64uk66W8IOq3uOumsCDsnbzrn6zsiqTtirgiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJza3kiIHgxPSIwIiB5MT0iMCIgeDI9IjAiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZjdmMWU4Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2U3ZWZlOSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CgogIDxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiBmaWxsPSJ1cmwoI3NreSkiLz4KICA8Y2lyY2xlIGN4PSI1OTYiIGN5PSIxNDYiIHI9IjY2IiBmaWxsPSIjYzI2NDNmIi8+CiAgPHJlY3QgeT0iMzIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjE4MCIgZmlsbD0iIzJmNWQ1MCIvPgogIDxwYXRoIGQ9Ik0wIDMyMGg4MDAiIHN0cm9rZT0iIzE4MmIyNSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2Utb3BhY2l0eT0iLjU1Ii8+CgogIDxnIGZpbGw9IiMxODJiMjUiPgogICAgPHJlY3QgeD0iNjAiIHk9IjI5NiIgd2lkdGg9IjY4MCIgaGVpZ2h0PSI1Ii8+CiAgICA8cmVjdCB4PSIyMzgiIHk9IjE3NiIgd2lkdGg9IjgiIGhlaWdodD0iMTQyIi8+CiAgICA8cmVjdCB4PSI1MzQiIHk9IjE3NiIgd2lkdGg9IjgiIGhlaWdodD0iMTQyIi8+CiAgICA8cmVjdCB4PSIyMjYiIHk9IjMxMCIgd2lkdGg9IjMyIiBoZWlnaHQ9IjEyIi8+CiAgICA8cmVjdCB4PSI1MjIiIHk9IjMxMCIgd2lkdGg9IjMyIiBoZWlnaHQ9IjEyIi8+CiAgPC9nPgoKICA8ZyBzdHJva2U9IiMxODJiMjUiIHN0cm9rZS1vcGFjaXR5PSIuODUiIHN0cm9rZS13aWR0aD0iMS4zIiBmaWxsPSJub25lIj4KICAgIDxwYXRoIGQ9Ik0yNDIgMTgyIDYwIDMwME0yNDIgMTgyIDE1MCAzMDBNMjQyIDE4MiAzMzAgMzAwIi8+CiAgICA8cGF0aCBkPSJNNTM4IDE4MiA3MzAgMzAwTTUzOCAxODIgNjUwIDMwME01MzggMTgyIDQ2MCAzMDAiLz4KICAgIDxwYXRoIGQ9Ik0yNDIgMTgyUTM5MCAyNjggNTM4IDE4MiIvPgogICAgPHBhdGggZD0iTTMwMCAyMjB2NzZNMzQwIDIzNHY2Mk0zODAgMjQxdjU1TTQyMCAyNDF2NTVNNDYwIDIzNHY2Mk01MDAgMjIwdjc2Ii8+CiAgPC9nPgoKICA8ZyBzdHJva2U9IiNmYWY5ZjciIHN0cm9rZS1vcGFjaXR5PSIuMjIiIHN0cm9rZS13aWR0aD0iMiI+CiAgICA8cGF0aCBkPSJNMTEwIDM2Mmg4Nk0yODAgMzg0aDEyNE01MjAgMzUyaDk2TTE5MCA0MjJoMTQ4TTQyMCA0NDZoMTA0TTYyMCA0MDJoODQiLz4KICA8L2c+Cgo8L3N2Zz4K" width="800" height="500" loading="lazy"
+                 alt="광안대교와 바다를 그린 일러스트">
+            <span class="card__num" aria-hidden="true">03</span>
+          </figure>
+          <div class="card__body">
+            <h3 class="card__title">여행</h3>
+            <p class="card__desc">
+              도시의 공간과 사람을 기록합니다. 골목에서 만난 장면이
+              콘텐츠의 재료가 됩니다.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Busan Log -->
+    <section class="section wrap" id="log" aria-labelledby="log-title">
+      <div class="section__head">
+        <p class="label"><span class="dash">—</span>06 Busan Log</p>
+        <h2 class="section__title" id="log-title">부산 기록</h2>
+      </div>
+
+      <p class="lead">
+        부산에서 만난 장면들을 네 컷으로 남겼습니다.
+        사진 대신 도형과 색으로 기록한 도시의 인상입니다.
+      </p>
+
+      <div class="log">
+        <figure class="log__item">
+          <div class="log__media">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MDAgNjAwIiB3aWR0aD0iNjAwIiBoZWlnaHQ9IjYwMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSLrsJTri6TsmYAg67aA7ZGc66W8IOq3uOumsCDsnbzrn6zsiqTtirgiPgogIDxkZWZzPgogIDwvZGVmcz4KCiAgPHJlY3Qgd2lkdGg9IjYwMCIgaGVpZ2h0PSI2MDAiIGZpbGw9IiNlM2VjZTciLz4KICA8Y2lyY2xlIGN4PSI0MjQiIGN5PSIyMDQiIHI9IjUyIiBmaWxsPSIjYzI2NDNmIi8+CiAgPHJlY3QgeT0iMzE4IiB3aWR0aD0iNjAwIiBoZWlnaHQ9IjI4MiIgZmlsbD0iIzJmNWQ1MCIvPgogIDxwYXRoIGQ9Ik0wIDMxOGg2MDAiIHN0cm9rZT0iIzE4MmIyNSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1vcGFjaXR5PSIuNSIvPgoKICA8ZyBmaWxsPSIjZmFmOWY3IiBmaWxsLW9wYWNpdHk9Ii45Ij4KICAgIDxyZWN0IHg9IjE5MyIgeT0iMzMwIiB3aWR0aD0iMi41IiBoZWlnaHQ9IjQ2Ii8+CiAgICA8Y2lyY2xlIGN4PSIxOTQiIGN5PSIzNzYiIHI9IjYiLz4KICA8L2c+CgogIDxnIHN0cm9rZT0iI2ZhZjlmNyIgc3Ryb2tlLW9wYWNpdHk9Ii4yMiIgc3Ryb2tlLXdpZHRoPSIyIj4KICAgIDxwYXRoIGQ9Ik05NiAzNTZoNzRNMzAwIDM5MmgxMTBNNDUyIDM0NGg3ME0xNTAgNDM4aDEzME0zNjggNDcwaDk2TTYwIDUwMGg4OCIvPgogIDwvZz4KCjwvc3ZnPgo=" width="600" height="600" loading="lazy"
+                 alt="바다와 부표, 해를 그린 일러스트">
+          </div>
+          <figcaption class="log__cap">
+            <span class="log__num">01</span>
+            <span>광안리 바다</span>
+          </figcaption>
+        </figure>
+
+        <figure class="log__item">
+          <div class="log__media">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MDAgNjAwIiB3aWR0aD0iNjAwIiBoZWlnaHQ9IjYwMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSLqs6jrqqnqs7wg6rOE64uoLCDslYTsuZjtmJUg66y47J2EIOq3uOumsCDsnbzrn6zsiqTtirgiPgogIDxkZWZzPgogIDwvZGVmcz4KCiAgPHJlY3Qgd2lkdGg9IjYwMCIgaGVpZ2h0PSI2MDAiIGZpbGw9IiNlZmU2ZGMiLz4KCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjE5MCIgaGVpZ2h0PSI2MDAiIGZpbGw9IiNkZWQzYzQiLz4KICA8cmVjdCB4PSI0MTAiIHk9IjAiIHdpZHRoPSIxOTAiIGhlaWdodD0iNjAwIiBmaWxsPSIjZDNjNmI1Ii8+CiAgPHBvbHlnb24gcG9pbnRzPSIxOTAsNjAwIDQxMCw2MDAgMzUwLDEyMCAyNTAsMTIwIiBmaWxsPSIjZTdkY2NkIi8+CgogIDxwYXRoIGQ9Ik0yNTIgNDIwVjI5MGE0OCA0OCAwIDAgMSA5NiAwdjEzMFoiIGZpbGw9IiMxODJiMjUiLz4KCiAgPGc+CiAgICA8cmVjdCB4PSIxNTAiIHk9IjUyMCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSI0MCIgZmlsbD0iI2MyNjQzZiIvPgogICAgPHJlY3QgeD0iMTc4IiB5PSI0ODIiIHdpZHRoPSIyNDQiIGhlaWdodD0iMzgiIGZpbGw9IiNiNDVhMzciLz4KICAgIDxyZWN0IHg9IjIwNCIgeT0iNDQ2IiB3aWR0aD0iMTkyIiBoZWlnaHQ9IjM2IiBmaWxsPSIjYzI2NDNmIi8+CiAgPC9nPgoKICA8ZyBmaWxsPSIjZmFmOWY3IiBmaWxsLW9wYWNpdHk9Ii41NSI+CiAgICA8cmVjdCB4PSI0NiIgeT0iMTUwIiB3aWR0aD0iNDQiIGhlaWdodD0iNjAiLz4KICAgIDxyZWN0IHg9IjExOCIgeT0iMjY4IiB3aWR0aD0iMzQiIGhlaWdodD0iNDYiLz4KICAgIDxyZWN0IHg9IjUwMCIgeT0iMTk2IiB3aWR0aD0iNDIiIGhlaWdodD0iNTgiLz4KICAgIDxyZWN0IHg9IjQ0MCIgeT0iMzAwIiB3aWR0aD0iMzAiIGhlaWdodD0iNDAiLz4KICA8L2c+CgogIDxjaXJjbGUgY3g9IjMwMCIgY3k9IjE2OCIgcj0iOSIgZmlsbD0iI2MyNjQzZiIvPgoKPC9zdmc+Cg==" width="600" height="600" loading="lazy"
+                 alt="골목과 계단, 아치형 문을 그린 일러스트">
+          </div>
+          <figcaption class="log__cap">
+            <span class="log__num">02</span>
+            <span>감천 골목</span>
+          </figcaption>
+        </figure>
+
+        <figure class="log__item">
+          <div class="log__media">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MDAgNjAwIiB3aWR0aD0iNjAwIiBoZWlnaHQ9IjYwMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSLrsKTsnZgg64+E7Iuc7JmAIOu2iCDsvJzsp4Qg7LC966y47J2EIOq3uOumsCDsnbzrn6zsiqTtirgiPgogIDxkZWZzPgogIDwvZGVmcz4KCiAgPHJlY3Qgd2lkdGg9IjYwMCIgaGVpZ2h0PSI2MDAiIGZpbGw9IiMxODJiMjUiLz4KICA8Y2lyY2xlIGN4PSI0NjgiIGN5PSIxMjgiIHI9IjQyIiBmaWxsPSIjZjJmNWYzIiBmaWxsLW9wYWNpdHk9Ii45Ii8+CgogIDxyZWN0IHg9IjAiIHk9IjMwMCIgd2lkdGg9IjE2OCIgaGVpZ2h0PSIzMDAiIGZpbGw9IiMxMDFjMTgiLz4KICA8cmVjdCB4PSI0MzIiIHk9IjI1OCIgd2lkdGg9IjE2OCIgaGVpZ2h0PSIzNDIiIGZpbGw9IiMxMDFjMTgiLz4KCiAgPGcgZmlsbD0iI2Q5YTA2YSI+CiAgICA8cmVjdCB4PSIyMDIiIHk9IjI0OCIgd2lkdGg9IjE4IiBoZWlnaHQ9IjI2Ii8+CiAgICA8cmVjdCB4PSIyNTQiIHk9IjIwMiIgd2lkdGg9IjE4IiBoZWlnaHQ9IjI2Ii8+CiAgICA8cmVjdCB4PSIzMjYiIHk9IjI0OCIgd2lkdGg9IjE4IiBoZWlnaHQ9IjI2Ii8+CiAgICA8cmVjdCB4PSIyNTQiIHk9IjMzNiIgd2lkdGg9IjE4IiBoZWlnaHQ9IjI2Ii8+CiAgICA8cmVjdCB4PSIzNzgiIHk9IjI5MCIgd2lkdGg9IjE4IiBoZWlnaHQ9IjI2Ii8+CiAgICA8cmVjdCB4PSIyMDIiIHk9IjM4MCIgd2lkdGg9IjE4IiBoZWlnaHQ9IjI2Ii8+CiAgICA8cmVjdCB4PSIzMjYiIHk9IjM4MCIgd2lkdGg9IjE4IiBoZWlnaHQ9IjI2Ii8+CiAgICA8cmVjdCB4PSIzNzgiIHk9IjQyNCIgd2lkdGg9IjE4IiBoZWlnaHQ9IjI2Ii8+CiAgPC9nPgoKICA8ZyBmaWxsPSIjOWRiOGFiIiBmaWxsLW9wYWNpdHk9Ii42NSI+CiAgICA8cmVjdCB4PSIyMjgiIHk9IjI5MCIgd2lkdGg9IjE4IiBoZWlnaHQ9IjI2Ii8+CiAgICA8cmVjdCB4PSIzMDIiIHk9IjIwMiIgd2lkdGg9IjE4IiBoZWlnaHQ9IjI2Ii8+CiAgICA8cmVjdCB4PSIzNTQiIHk9IjMzNiIgd2lkdGg9IjE4IiBoZWlnaHQ9IjI2Ii8+CiAgICA8cmVjdCB4PSIyMjgiIHk9IjQyNCIgd2lkdGg9IjE4IiBoZWlnaHQ9IjI2Ii8+CiAgICA8cmVjdCB4PSIyNzYiIHk9IjQ2OCIgd2lkdGg9IjE4IiBoZWlnaHQ9IjI2Ii8+CiAgPC9nPgoKICA8ZyBmaWxsPSIjYzI2NDNmIj4KICAgIDxyZWN0IHg9IjMwMiIgeT0iMjkwIiB3aWR0aD0iMTgiIGhlaWdodD0iMjYiLz4KICAgIDxyZWN0IHg9IjI3NiIgeT0iMzgwIiB3aWR0aD0iMTgiIGhlaWdodD0iMjYiLz4KICAgIDxyZWN0IHg9IjM1NCIgeT0iNDY4IiB3aWR0aD0iMTgiIGhlaWdodD0iMjYiLz4KICA8L2c+CgogIDxnIHN0cm9rZT0iI2YyZjVmMyIgc3Ryb2tlLW9wYWNpdHk9Ii4xMiI+CiAgICA8cGF0aCBkPSJNMCA1NjBoNjAwTTE2OCAwdjYwME00MzIgMHY2MDAiLz4KICA8L2c+Cgo8L3N2Zz4K" width="600" height="600" loading="lazy"
+                 alt="밤의 도시와 불 켜진 창문을 그린 일러스트">
+          </div>
+          <figcaption class="log__cap">
+            <span class="log__num">03</span>
+            <span>밤의 도시</span>
+          </figcaption>
+        </figure>
+
+        <figure class="log__item">
+          <div class="log__media">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MDAgNjAwIiB3aWR0aD0iNjAwIiBoZWlnaHQ9IjYwMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSLsu6TtlLzsnpTqs7wg6rmA7J20IO2UvOyWtOyYpOultOuKlCDsubTtjpgg7J2865+s7Iqk7Yq4Ij4KICA8ZGVmcz4KICA8L2RlZnM+CgogIDxyZWN0IHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIiBmaWxsPSIjZjNlYmUzIi8+CiAgPHJlY3QgeT0iNDMwIiB3aWR0aD0iNjAwIiBoZWlnaHQ9IjE3MCIgZmlsbD0iI2U2ZGFjYiIvPgoKICA8ZWxsaXBzZSBjeD0iMzAwIiBjeT0iNDM0IiByeD0iMTMyIiByeT0iMjYiIGZpbGw9IiNkNWM3YjYiLz4KICA8ZWxsaXBzZSBjeD0iMzAwIiBjeT0iNDMwIiByeD0iMTEyIiByeT0iMjAiIGZpbGw9IiNjOWJhYTciLz4KCiAgPHBhdGggZD0iTTIzMiAzNTJoMTM2bC0xNiA2MnEtMiAyNi0yOCAyNmgtNDhxLTI2IDAtMjgtMjZaIiBmaWxsPSIjYzI2NDNmIi8+CiAgPHBhdGggZD0iTTM2OCAzNjZxNDAgMiA0MCAyOHQtNDAgMjgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2MyNjQzZiIgc3Ryb2tlLXdpZHRoPSI5IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8ZWxsaXBzZSBjeD0iMzAwIiBjeT0iMzUyIiByeD0iNjgiIHJ5PSIxMiIgZmlsbD0iIzJhMWMxNiIvPgoKICA8ZyBmaWxsPSJub25lIiBzdHJva2U9IiMyZjVkNTAiIHN0cm9rZS1vcGFjaXR5PSIuNDUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj4KICAgIDxwYXRoIGQ9Ik0yNzAgMzIwYy0xMC0yNCAxMi0zNiAyLTYyIi8+CiAgICA8cGF0aCBkPSJNMzAwIDMxNGMtMTAtMjYgMTItMzggMi02NiIvPgogICAgPHBhdGggZD0iTTMzMCAzMjBjLTEwLTI0IDEyLTM2IDItNjIiLz4KICA8L2c+CgogIDxsaW5lIHgxPSI0MjQiIHkxPSI0NzQiIHgyPSI0OTgiIHkyPSI0NDQiIHN0cm9rZT0iI2I5YTk5NSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8ZWxsaXBzZSBjeD0iNTA1IiBjeT0iNDQxIiByeD0iMTAiIHJ5PSI2IiBmaWxsPSIjYjlhOTk1Ii8+Cgo8L3N2Zz4K" width="600" height="600" loading="lazy"
+                 alt="커피잔과 김이 피어오르는 카페 일러스트">
+          </div>
+          <figcaption class="log__cap">
+            <span class="log__num">04</span>
+            <span>동네 카페</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section wrap" id="education" aria-labelledby="education-title">
+      <div class="section__head">
+        <p class="label"><span class="dash">—</span>07 Education</p>
+        <h2 class="section__title" id="education-title">교육</h2>
+        <span class="badge">예시</span>
+      </div>
+
+      <ul class="edu">
+        <li class="edu__row">
+          <p class="edu__label">학력</p>
+          <p class="edu__value">
+            미디어커뮤니케이션학과 <span>· 2022.03 — 현재 · 재학</span>
+          </p>
+        </li>
+        <li class="edu__row">
+          <p class="edu__label">관련 수업</p>
+          <ul class="edu__courses">
+            <li>미디어 콘텐츠 기획</li>
+            <li>브랜드 커뮤니케이션</li>
+            <li>영상 제작 실습</li>
+            <li>미디어 리서치</li>
+          </ul>
+        </li>
+        <li class="edu__row">
+          <p class="edu__label">자격 · 어학</p>
+          <p class="edu__value">준비 중입니다.<span> · 관련 자격 취득 후 업데이트 예정</span></p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Now -->
+    <section class="section wrap" id="now" aria-labelledby="now-title">
+      <div class="section__head">
+        <p class="label"><span class="dash">—</span>08 Now</p>
+        <h2 class="section__title" id="now-title">지금</h2>
+      </div>
+
+      <ul class="now">
+        <li>
+          <span class="now__tag">Weekly</span>
+          <span class="now__text">콘텐츠 사례를 하나씩 뜯어보는 스터디<span>화요일 · 3인</span></span>
+        </li>
+        <li>
+          <span class="now__tag">Ongoing</span>
+          <span class="now__text">부산 골목을 사진과 짧은 글로 기록<span>주말 · 4컷 시리즈</span></span>
+        </li>
+        <li>
+          <span class="now__tag">Learning</span>
+          <span class="now__text">브랜드 전략 온라인 강의 수강<span>주 2회</span></span>
+        </li>
+        <li>
+          <span class="now__tag">Next</span>
+          <span class="now__text">콘텐츠 인턴십 지원 준비<span>포트폴리오 정리 중</span></span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="label"><span class="dash">—</span>09 Contact</p>
+          <h2 class="contact__title" id="contact-title">함께 일해요</h2>
+        </div>
+
+        <p class="contact__text">
+          새로운 프로젝트, 인턴십, 가벼운 커피챗 모두 환영합니다.
+          아래 주소로 편하게 연락 주세요.
+        </p>
+
+        <a class="mail" href="mailto:babo@naver.com">
+          babo@naver.com
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 12h14M13 6l6 6-6 6"/>
+          </svg>
+        </a>
+
+        <div class="links">
+          <a href="https://github.com/luffy8927-blip/AIpython"
+             target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14 0 1.55-.01 2.8-.01 3.18 0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/>
+            </svg>
+            GitHub
+          </a>
+          <a href="#">Blog</a>
+          <a href="#">Instagram</a>
+          <a href="#">Notion</a>
+        </div>
+        <p class="links__note">GitHub 외 링크는 준비 중입니다.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span>© 2026 황재환</span>
+      <span>Busan, Korea</span>
+    </div>
+    <div class="footer__word" aria-hidden="true">황재환</div>
+  </footer>
+</body>
+</html>
